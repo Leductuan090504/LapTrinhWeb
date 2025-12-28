@@ -43,16 +43,16 @@ const ListBookings = () => {
 
   return !isLoading ? (
     <>
-      <Title text1="List" text2="Bookings" />
+      <Title text1="Danh Sách Đặt Vé" />
       <div className="max-w-4xl mt-6 overflow-x-auto">
         <table className="w-full border-collapse  rounded-md overflow-hidden text-nowrap">
             <thead>
                 <tr className="bg-primary/20 text-left text-white">
-                    <th className="p-2 font-medium pl-5">User Name</th>
-                    <th className="p-2 font-medium">Movie Name</th>
-                    <th className="p-2 font-medium">Show Time</th>
-                    <th className="p-2 font-medium">Seats</th>
-                    <th className="p-2 font-medium">Amount</th>
+                    <th className="p-2 font-medium pl-5">Tên Khách Hàng</th>
+                    <th className="p-2 font-medium">Tên Phim</th>
+                    <th className="p-2 font-medium">Thời Gian Chiếu</th>
+                    <th className="p-2 font-medium">Ghế</th>
+                    <th className="p-2 font-medium">Số Tiền</th>
                 </tr>
             </thead>
             <tbody className="text-sm font-light">
